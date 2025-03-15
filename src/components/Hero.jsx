@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from './Navbar.jsx';
 import BgImg from './images/bgImg.png';
-import girlImg from './images/girlImg.png';
+import mainImg from './images/flying.png'
 import { IoIosArrowRoundUp } from "react-icons/io";
 
 function Hero() {
@@ -13,16 +13,16 @@ function Hero() {
       </div>
 
       {/* Hero Text */}
-      <p className="text-[10rem] leading-none font-[Anton] text-white pt-[40px] lg:pt-[100px] lg:text-[11rem]">
-        ENJOY EVERY BITE
+      <p className="text-[9rem] w-[100px] leading-none font-[Anton] text-white pt-[30px] lg:pt-[100px] lg:text-[7.5rem] pl-45">
+        SUPER DELICIOUS BURGERS
       </p>
 
       {/* Hero Image */}
-      <div className="absolute bottom-0 w-full flex justify-center items-end h-full">
-        <img src={girlImg} alt="A woman enjoying food" className="w-[700px] max-w-full object-contain z-10" />
+      <div className='absolute top-20 right-40 rotate-[355deg]'><img className='w-150' src={mainImg} alt="" />
       </div>
+  
 
-      {/* Red Circle (Might be a design element, you can use Tailwind for this) */}
+   
       <span className="hidden w-[50px] h-[50px] bg-red-500  rounded-[50%] absolute bottom-50 left-63 z-[10] lg:flex items-center justify-center text-white text-[30px] rotate-[45deg]"><IoIosArrowRoundUp /></span>
       <div className="hidden  absolute w-[190px] h-lg bottom-30 left-44 z-[10] lg:flex items-center justify-center text-white text-[10px] ">   
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum odio exercitationem ut ab numquam! Accusamus perferendis officiis consequatur ad officia!
